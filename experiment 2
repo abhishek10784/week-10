@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+int a[5], i;
+int *p = a;
+printf("25331A05H2");
+printf("\nEnter 5 elements: ");
+for (i = 0; i < 5; i++)
+
+scanf("%d", p + i);
+printf("Array elements via pointer:\n");
+for (i = 0; i < 5; i++)
+printf("a[%d] = %d\n", i, *(p + i));
+return 0;
+}
